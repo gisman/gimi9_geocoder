@@ -2,6 +2,8 @@
 
 한국 주소 지오코딩을 위한 Python 라이브러리입니다. 주소를 좌표로 변환하거나, 좌표를 주소로 변환하는 기능을 제공하며, pandas와 geopandas를 활용한 데이터 분석과 GIS 작업에 최적화되어 있습니다.
 
+Notebook 샘플: https://colab.research.google.com/drive/1Er7h2DsWy3cnB28xXfX78iO2v2wDnzUV?usp=sharing
+
 ## API 토큰 발급
 
 서비스를 이용하려면 API 토큰이 필요합니다. [geocode.gimi9.com](https://geocode.gimi9.com/)에서 API 토큰을 발급받으세요.

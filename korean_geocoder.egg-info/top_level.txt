@@ -1,2 +1,0 @@
-gimi9_geocoder
-tests

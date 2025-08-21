@@ -5,28 +5,41 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gimi9-geocoder"
 version = "0.1.0"
-description = "A Python library for geocoding Korean addresses using a RESTful API."
+description = "한국 주소 지오코딩을 위한 Python 라이브러리 - Korean address geocoding library"
 authors = [{name = "gisman", email = "gisman@gmail.com"}]
 license = "MIT"
 readme = "README.md"
-requires-python = ">=3.6"
-keywords = ["geocoding", "korean", "addresses", "api", "pandas"]
+requires-python = ">=3.8"
+keywords = ["geocoding", "korean", "addresses", "api", "pandas", "geopandas", "gis"]
 classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Software Development :: Libraries :: Python Modules",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Operating System :: OS Independent",
 ]
 
 dependencies = [
-    "httpx",
-    "pandas",
+    "httpx>=0.24.0",
+    "pandas>=1.3.0",
+    "geopandas>=0.10.0",
+    "shapely>=1.8.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest",
-    "pytest-cov",
-    "black",
-    "flake8",
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=22.0",
+    "flake8>=4.0",
+    "twine>=4.0",
+    "build>=0.7.0",
 ]
 
 [project.urls]

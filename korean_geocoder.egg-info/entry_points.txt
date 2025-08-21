@@ -1,2 +1,0 @@
-[console_scripts]
-gimi9-geocoder = gimi9_geocoder.client:main
