@@ -1,18 +1,9 @@
-import sys
-import os
-
-# Add the module's directory to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 from gimi9_geocoder.client import GeocoderClient
 
 
 def main():
     # GeocoderClient 초기화
-    geocoder = GeocoderClient(
-        token="9b4c40c8f5c935ca6524c2ec18aa7c49f4c3b6cb"
-    )  # 프로회원
-    # geocoder = GeocoderClient(token="DEMO_TOKEN")
+    geocoder = GeocoderClient(token="DEMO_TOKEN")
 
     # 주소를 좌표로 변환 (지오코딩)
     result = geocoder.geocode("서울특별시 강남구 테헤란로 123")

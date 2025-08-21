@@ -1,9 +1,7 @@
-import sys
 import asyncio
-
-sys.path.append("..")  # Adjust the path to import gimi9_geocoder
-from gimi9_geocoder.client import GeocoderClient
 import pandas as pd
+
+from gimi9_geocoder.client import GeocoderClient
 
 # Sample DataFrame with addresses
 data = {
