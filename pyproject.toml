@@ -7,7 +7,7 @@ name = "gimi9-geocoder"
 version = "0.1.0"
 description = "A Python library for geocoding Korean addresses using a RESTful API."
 authors = [{name = "gisman", email = "gisman@gmail.com"}]
-license = {text = "MIT"}
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.6"
 keywords = ["geocoding", "korean", "addresses", "api", "pandas"]
@@ -30,7 +30,7 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/gisman/gimi9_geocoder"
+Homepage = "https://geocode.gimi9.com/"
 Repository = "https://github.com/gisman/gimi9_geocoder"
 
 [tool.setuptools.packages.find]
