@@ -1,0 +1,9 @@
+.vscode/
+bin/
+build/
+include/
+lib/
+lib64/
+*.pyc
+__pycache__/
+
