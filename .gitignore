@@ -1,9 +1,33 @@
+# IDE
 .vscode/
+.idea/
+
+# Virtual Environment
 bin/
 build/
 dist/
 include/
 lib/
 lib64/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Python
 *.pyc
+*.pyo
+*.pyd
 __pycache__/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
